@@ -1,0 +1,57 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+}
+.container {
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+}
+.email {
+  width: 200px;
+  padding: 10px;
+  border-radius: 50px;
+  margin-bottom: 15px;
+}
+.email:focus {
+  outline: none;
+}
+.username {
+  width: 200px;
+  padding: 10px;
+  border-radius: 50px;
+  margin-bottom: 15px;
+}
+.username:focus {
+  outline: none;
+}
+.password {
+  width: 200px;
+  padding: 10px;
+  border-radius: 50px;
+  margin-bottom: 15px;
+}
+.password:focus {
+  outline: none;
+}
+.error {
+  color: red;
+}
+.gonder {
+  padding: 5px;
+  border: none;
+  width: 100px;
+  height: 35px;
+  border-radius: 50px;
+  background-color: #638eb3;
+  cursor: pointer;
+}
+.gonderme {
+  padding: 5px;
+  border: none;
+  width: 100px;
+  height: 35px;
+  border-radius: 50px;
+  background-color: #595b5c;
+  pointer-events: none;
+}

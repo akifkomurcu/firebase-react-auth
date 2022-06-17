@@ -1,22 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect } from "react";
+import "./App.css";
+
+import Login from "./components/Login";
+import Register from "./components/Register";
 
 function App() {
+  useEffect(() => {
+    // signIn("akif@gmail.com", "123456")
+    //   .then(() => {
+    //     console.log("giriş yapıldı");
+    //   })
+    //   .catch((err) => {
+    //     console.log(err);
+    //   });
+    // signUp("akif", "akif@gmail.com", "123456")
+    //   .then(() => {
+    //     console.log("OK");
+    //   })
+    //   .catch((err) => {
+    //     console.log(err);
+    //   });
+  }, []);
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Register />
       </header>
     </div>
   );
